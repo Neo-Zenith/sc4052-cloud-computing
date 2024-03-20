@@ -1,0 +1,3 @@
+output/*
+*/__pycache__/*
+*/article_titles.txt
