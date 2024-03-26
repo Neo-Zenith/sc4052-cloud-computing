@@ -3,11 +3,11 @@
     * ```bash
       pip install -r requirements.txt
       ```
-      
+
 2. Download all article titles of Wikipedia from [here](https://stackoverflow.com/questions/24474288/how-to-obtain-a-list-of-titles-of-all-wikipedia-articles). Extract the file, rename as article_titles.txt and move to `tools` subdirectory.
 
 3. Create a folder `output` and within the folder a folder named `ranks`, then run `tools/topic_extractor.py` to start scrapping Wikipedia webpage data.
 
-4. Run `Main.py` for the experiments. 
+4. Run `Main.py` for the experiments. Tune the values in Main.py to test out different parameters.
 
-5. Run `Plot_Figure2.py` to plot the figure shown in Figure 2 of the report.
+5. Run `Plot_Figure2.py` to plot the figure shown in Figure 2 of the report. Make sure you run n = 100 for unbias, bias (80%), bias (50%) and bias (30%) in `Main.py` prior to this.
